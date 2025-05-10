@@ -1,7 +1,7 @@
 {
   "name": "url-shortener",
   "version": "1.0.0",
-  "description": "Simple URL shortener using Express and SQLite",
+  "description": "A simple URL shortener using Express and PostgreSQL",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "nanoid": "^3.3.4",
-    "sqlite3": "^5.1.6"
+    "pg": "^8.11.1"
   },
   "engines": {
     "node": ">=14.0.0"
