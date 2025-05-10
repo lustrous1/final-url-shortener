@@ -1,8 +1,8 @@
 const sqlite3 = require("sqlite3").verbose();
 const path = require("path");
 
-const dbPath = process.env.DB_PATH || path.join(__dirname, "urls.db");
-// Or if using a Render disk:
+const dbPath = path.join(__dirname, "urls.db");
+
 const db = new sqlite3.Database(dbPath);
 
 db.serialize(() => {
