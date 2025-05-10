@@ -1,7 +1,7 @@
 {
   "name": "url-shortener",
   "version": "1.0.0",
-  "description": "Simple URL shortener using Node.js, Express, and SQLite",
+  "description": "Simple URL shortener using Express and SQLite",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
